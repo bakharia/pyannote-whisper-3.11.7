@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "adaptive-ed"
+version = "0.1.0"
+description = "Adaptive Learning System"
+authors = ["Bakharia"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11,<3.12"
+"pyannote.audio" = "^3.1.1"
+pandas = "^2.1.4"
+numpy = "^1.26.3"
+pydub = "^0.25.1"
+openai = "^1.8.0"
+spacy = "^3.7.2"
+transformers = "^4.36.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

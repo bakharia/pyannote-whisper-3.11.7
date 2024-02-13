@@ -1,0 +1,24 @@
+# Ignore venv
+venv/
+
+# Ignore python version
+.python-version
+
+# Ignore pycache
+__pycache__/
+
+# Ignore environment-specific files
+.env
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs and databases
+*.log
+*.sqlite
+
+# Ignore data files
+recordings/
+data/
